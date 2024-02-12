@@ -1,0 +1,34 @@
+{
+  "name": "storybook7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksunilssah/storybook7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksunilssah/storybook7/issues"
+  },
+  "homepage": "https://github.com/ksunilssah/storybook7#readme",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.14",
+    "@storybook/addon-interactions": "^7.6.14",
+    "@storybook/addon-links": "^7.6.14",
+    "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/blocks": "^7.6.14",
+    "@storybook/react": "^7.6.14",
+    "@storybook/react-webpack5": "^7.6.14",
+    "@storybook/test": "^7.6.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.14"
+  }
+}
